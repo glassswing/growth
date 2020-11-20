@@ -4,7 +4,7 @@ permalink: /about-branding/
 title: '실무로서의 브랜딩'
 date: 2020-09-13 11:30:00 +09:00
 featured_image_thumbnail: assets/images/posts/2018/11_thumbnail.jpg
-featured_image: assets/images/posts/2018/11.jpg
+featured_image: /about-branding/assets/images/posts/2018/11.jpg
 
 tags:
   - 브랜딩실무
