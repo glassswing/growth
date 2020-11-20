@@ -31,13 +31,11 @@ thankyou_page_description: "Your message has been successfully sent. We will con
 # facebook: 'username'
 
 # Navigation
-navigation:
-  - text: About
-    url: /about/
-  - text: Style Guide
-    url: /style-guide/
-  - text: Contact Me
-    url: /contact/
+# navigation:
+#   - text: About
+#     url: /about/
+#   - text: Contact Me
+#     url: /contact/
 
 # Required Plugins
 plugins_dir:
