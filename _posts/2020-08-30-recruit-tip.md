@@ -4,7 +4,7 @@ permalink: /recruit-tip/
 title: '스타트업 마케팅팀에 지원하는 1~3년차 마케터에게'
 date: 2020-08-30 11:30:00 +09:00
 featured_image_thumbnail: assets/images/posts/2018/7_thumbnail.jpg
-featured_image: /recruit-tip/assets/images/posts/2018/7.jpg
+featured_image: recruit-tip/assets/images/posts/2018/7.jpg
 
 tags:
   - 신입마케터
