@@ -1,11 +1,10 @@
 ---
 layout: post
-permalink: /beginer-story/
 title: '마케팅 실무 1년차, 마케팅이 적성에 안 맞아요ㅠㅠ'
 date: 2020-08-29 14:30:00 +09:00
 
 featured_image_thumbnail: assets/images/posts/2018/12_thumbnail.jpg
-featured_image: beginer-story/assets/images/posts/2018/12.jpg
+featured_image: assets/images/posts/2018/12.jpg
 
 tags:
   - 신입마케터
