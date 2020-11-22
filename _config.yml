@@ -41,7 +41,6 @@ thankyou_page_description: "Your message has been successfully sent. We will con
 plugins_dir:
   - jekyll-paginate
   - jekyll-tagsgenerator
-  - jekyll-seo-tag
   - jekyll-sitemap
 
 # Pagination
