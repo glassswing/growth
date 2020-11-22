@@ -1,5 +1,5 @@
---- 
-# Only the essential Sass file needs front matter. The dashes are enough. 
+---
+# Only the essential Sass file needs front matter. The dashes are enough.
 ---
 
 /**
@@ -25,7 +25,7 @@
 */
 
 @import
-"variables", 
+"variables",
 "icons",
 "reset",
 "general"
@@ -177,7 +177,7 @@
 
 .post-meta {
   color: $gray;
-  font-size: 0.77778rem;
+  font-size: 0.3rem; // 0.77778rem
   letter-spacing: 2px;
   line-height: 1.5;
   margin-bottom: 1.42857em;
@@ -265,7 +265,7 @@
   line-height: 1.5;
   margin-bottom: 1.66667em;
   padding-top: 1%;
-  text-align: center; 
+  text-align: center;
 }
 
 /* Featured Posts */

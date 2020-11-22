@@ -2,8 +2,8 @@
 layout: post
 title: '페이스북 10% 세금 아끼기'
 date: 2020-09-27 11:30:00 +09:00
-featured_image_thumbnail: assets/images/posts/2018/10_thumbnail.jpg
-featured_image: assets/images/posts/2018/10.jpg
+featured_image_thumbnail: assets/images/posts/main/10_thumbnail.jpg
+featured_image: assets/images/posts/main/10.jpg
 
 tags:
   - 페이스북광고

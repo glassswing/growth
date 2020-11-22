@@ -2,8 +2,8 @@
 layout: post
 title: 'Z세대가 특수문자 쓰는 법'
 date: 2020-10-07 11:30:00 +09:00
-featured_image_thumbnail: assets/images/posts/2018/1_thumbnail.jpg
-featured_image: assets/images/posts/2018/1.jpg
+featured_image_thumbnail: assets/images/posts/main/1_thumbnail.jpg
+featured_image: assets/images/posts/main/1.jpg
 
 tags:
   - Z세대신조어

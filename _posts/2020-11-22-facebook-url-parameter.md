@@ -2,8 +2,8 @@
 layout: post
 title:  'utm 세팅의 수고를 덜어주는 페이스북 동적 매개변수'
 date: 2020-10-07 11:30:00 +09:00
-featured_image_thumbnail: assets/images/posts/2018/12_thumbnail.jpg
-featured_image: assets/images/posts/2018/12.jpg
+featured_image_thumbnail: assets/images/posts/main/12_thumbnail.jpg
+featured_image: assets/images/posts/main/12.jpg
 
 tags:
   - 페이스북동적매개변수
@@ -32,16 +32,18 @@ utm을 설정하지 않아도 어느 채널에서 들어오는지는 잡히기�
 페이스북에서 utm 기능을 제공한다 하니, 정말 왠지 덜 구체적일 것 같아서 신뢰하지 않았는데(...) 그렇지 않았다. 오히려 직접 utm을 만드는 것보다 동적 매개변수를 활용하는 게 더 정확하고 구체적이다. 거기다 문서작업까지 줄어든다. 이 기능은 예전에도 페이스북에 있었다고 하는데, 그동안 알지 못했고 사용할 생각을 하지 못했다. 마개이너 스터디를 통해 숨어있던 깨알 기능을 활용할 수 있게 되었다. 마개이너는 최고야!
 
 ![페이스북 동적 매개변수](/assets/images/posts/content/facebook-auto-parameter.jpg)
+
+
 ![페이스북 동적 매개변수2](/assets/images/posts/content/facebook-auto-parameter2.jpg)
 
 페이스북 광고 소재 생성 시 '문구 및 링크 작성' 단까지 가면 하단에 파란색 텍스트로 URL 매개변수 만들기 라는 링크가 있다. 클릭해서 들어가면 동적 매개변수를 만들 수 있는 기입창이 나온다. 그러나 이 창으로 들어가는 것은 사실 상관 없다. 페이스북이 제공하는 동적 매개변수의 포인트는 **페이스북의 캠페인명, 광고세트명, 소재명 등을 동적 매개변수로서 utm에 사용할 수 있다**는 점이다. 처음 형식만 알고 나면, 이후에는 만들어진 링크를 복사해서 모든 소재에 활용할 수 있다.  
 
 사용하면 좋은 동적 매개변수들
- \- 캠페인 명: {{campaign.name}}  
- \- 광고세트명: {{adset.name}}  
- \- 광고소재명: {{ad.name}}  
- \- 소스: {{site_source_name}}  
- \- 게재위치: {{placement}}  
+ \- 캠페인 명: \{\{campaign.name\}\}  
+ \- 광고세트명: \{\{adset.name\}\}  
+ \- 광고소재명: \{\{ad.name\}\}  
+ \- 소스: \{\{site_source_name\}\}  
+ \- 게재위치: \{\{placement\}\}  
 
  utm-source에 {{site_source_name}} 를 넣으면 하나의 소재를 같은 utm으로 페이스북, 인스타에서 동시에 돌리더라도 ga에서 fb, ig로 소스가 나뉘어 찍히는 것을 볼 수 있다. 같은 맥락으로 utm_term에 {{placement}} 를 넣으면 본 소재가 어떤 게재위치에서 노출됐었는지 보다 구체적으로 알 수 있다. 페이스북이 자동으로 상황에 맞는 변수값을 대응해서 넣어주기 때문이다. 수동으로 기입하는 utm보다 더 구체적인 트래킹이 가능하다. 이것만으로도 동적 매개변수를 사용해야 하는 이유는 충분하지 않을까?  
  한가지 주의할 점은, 동적 매개변수는 오직 최초에 만들어진 캠페인명, 광고세트명, 광고소재명에 따라 반영된다는 것이다. 캠페인을 만들고 한달 후 캠페인명을 수정해도, 동적 매개변수에는 반영되지 않는다. 페이스북 왜 이런 데에선 무심한 거죠..?  
