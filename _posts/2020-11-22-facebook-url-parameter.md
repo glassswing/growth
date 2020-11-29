@@ -6,6 +6,8 @@ featured_image_thumbnail: assets/images/posts/main/12_thumbnail.jpg
 featured_image: assets/images/posts/main/12.jpg
 
 tags:
+  - 업무노트
+  - 디지털마케팅
   - 페이스북동적매개변수
   - utm
 description: '그냥 utm 직접 설정하는 것보다 페이스북 동적 매개변수로 하는 게 더 좋을 정도'
