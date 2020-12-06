@@ -34,11 +34,15 @@ post_class: post-template
                     {% endfor %}
                 </p>
                 {% endif %}
+
                 <div class="post-share">
                     <span class="post-share-title"></span>
+                    {% include kakao.html %}
                     <!-- <a target="_blank" href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}">Twitter</a> -->
-                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}">Share Facebook</a>
-                </div><!-- .share-post -->
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}?utm_source=facebook&utm_medium=social&utm_compaign=share">Share Facebook</a>
+                    <!-- <a target="_blank" onclick="kakaoShare();">Share Kakaotalk</a> -->
+                </div>
+                <!-- .share-post -->
             </footer>
             <div class="author-box">
                 <div class="author-avatar"><img src="{{ site.baseurl }}/assets/images/{{ site.author.image }}" alt="{{ site.author.name }}'s Picture"

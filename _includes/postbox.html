@@ -17,8 +17,10 @@
         <img src="{% if post.featured_image contains ' :// ' %}{{ post.featured_image }}{% else %}{{ post.featured_image | absolute_url }}{% endif %}"
             alt="{{ post.title }}">
     </a>
+
     {% else %}
     {% endif %}
+
     <div class="post-content">
         <p>{{ post.excerpt | strip_html | truncatewords:40 }} </p>
         <p class="post-tags">
