@@ -12,6 +12,13 @@ post_class: post-template
                     <time class="post-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d,
                         %Y" }}</time>
                 </div><!-- .post-meta -->
+                <script type="text/javascript">
+                  dataLayer.push ({
+                    'event':'postView'',
+                    'postTitle':'{{ page.title }}'
+                    'postUrl':'{{ page.url }}'
+                  });
+                </script>
                 <h1 class="posttitle">{{ page.title }}</h1>
             </header><!-- .post-header -->
             {% if page.featured_image %}
@@ -99,7 +106,6 @@ post_class: post-template
                 {% endif %}
             </article>
             {% endif %}
-
 
             {% if page.previous.url %}
             <article class="post">
