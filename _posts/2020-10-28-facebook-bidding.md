@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '페이스북 입찰전략을 의인화해서 설명해보자'
-date: 2020-10-07 11:30:00 +09:00
+date: 2020-10-28 11:30:00 +09:00
 featured_image_thumbnail: assets/images/posts/main/4_thumbnail.jpg
 featured_image: assets/images/posts/main/4.jpg
 

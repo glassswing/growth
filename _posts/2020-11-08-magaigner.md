@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'GTM에서 데이터 레이어를 활용하는 법을 알려주는 마케팅 강의는 없다'
-date: 2020-10-07 11:30:00 +09:00
+date: 2020-11-08 11:30:00 +09:00
 featured_image_thumbnail: assets/images/posts/main/2_thumbnail.jpg
 featured_image: assets/images/posts/main/2.jpg
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  '직관적이면서 현실적이고 정량화까지 용이한 마케팅 조사방법을 원한다면, NPS(순추천고객지수) 알아보기'
-date: 2020-10-07 11:30:00 +09:00
+date: 2020-12-06 11:30:00 +09:00
 featured_image_thumbnail: assets/images/posts/main/nps_thumbnail.jpg
 featured_image: assets/images/posts/main/nps.jpg
 
@@ -28,7 +28,8 @@ description: 'date driven 디지털 마케팅 시대에도 정성조사는 여�
 
 Net Promoter Score의 약자! 순추천고객지수를 뜻한다. 2003년에 그 유명한 컨설팅회사 Bain & Company의 컨설턴트 Fred Reichheld가 처음 제안한 정량조사 방법이다. \'정량조사 방법\'이라고 말하면 뭔가 거창하게 느껴질 수 있는데 그냥 딱 이 질문 하나다.
 
-![NPS](assets/images/posts/content/nps-example.jpg)
+![NPS](assets/images/posts/content/nps-example.JPG)
+
 
 0점부터 10점까지의 점수로 고객들에게 우리 서비스의 \'추천지수\'를 물으면 NPS 끝! 이다.
 <br/>

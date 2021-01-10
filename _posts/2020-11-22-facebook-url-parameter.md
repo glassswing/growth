@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  'utm 세팅의 수고를 덜어주는 페이스북 동적 매개변수'
-date: 2020-10-07 11:30:00 +09:00
+date: 2020-11-22 11:30:00 +09:00
 featured_image_thumbnail: assets/images/posts/main/12_thumbnail.jpg
 featured_image: assets/images/posts/main/12.jpg
 
