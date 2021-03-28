@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  '직관적이면서 현실적이고 정량화까지 용이한 마케팅 조사방법을 원한다면, NPS(순추천고객지수) 알아보기'
+title:  '직관적이면서 현실적이고 정량화까지 용이한 마케팅 조사방법을 원한다면, NPS(순추천고객지수) 알아보기(1)'
 date: 2020-12-06 11:30:00 +09:00
 featured_image_thumbnail: assets/images/posts/main/nps_thumbnail.jpg
 featured_image: assets/images/posts/main/nps.jpg
