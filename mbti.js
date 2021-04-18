@@ -148,7 +148,7 @@ function sendLink() {
 
   var k_title = document.querySelector('#mymbti').textContent;
   var k_description = document.querySelector('#explain').textContent;
-  var k_img = document.querySelector('#img').getAttribute('src');
+  var k_img = document.querySelector('#img').src = result[mbti]['img'];
 
   Kakao.Link.sendDefault({
     objectType: 'feed',
