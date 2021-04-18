@@ -124,6 +124,32 @@ var result = {
 };
 
 
+//추천
+var curation = {
+  'ISTJ' : 'https://www.myrealtrip.com/offers/100904',
+  'ISTP' : 'https://www.myrealtrip.com/offers/82433',
+  'ISFJ' : 'https://www.myrealtrip.com/offers/99618',
+  'ISFP' : 'https://www.myrealtrip.com/offers/99616',
+  'INTJ' : 'https://www.myrealtrip.com/offers/83797',
+  'INTP' : 'https://www.myrealtrip.com/offers/84744',
+  'INFJ' : 'https://www.myrealtrip.com/offers/52166',
+  'INFP' : 'https://www.myrealtrip.com/offers/73847',
+  'ENTJ' : 'https://www.myrealtrip.com/offers/100604',
+  'ENTP' : 'https://www.myrealtrip.com/offers/84531',
+  'ENFJ' : 'https://www.myrealtrip.com/offers/83388',
+  'ENFP' : 'https://www.myrealtrip.com/offers/83210',
+  'ESFP' : 'https://www.myrealtrip.com/offers/84242',
+  'ESTP' : 'https://www.myrealtrip.com/offers/27309',
+  'ESTJ' : 'https://www.myrealtrip.com/offers/81904',
+  'ESFJ' : 'https://www.myrealtrip.com/offers/83197'
+}
+
+// 추천버튼
+function curationBtn() {
+  document.querySelector('#curation').innerHTML
+}
+
+
 // 테스트 시작
 function run() {
   document.querySelector('#run').style.display="none";
@@ -148,7 +174,7 @@ function sendLink() {
 
   var k_title = document.querySelector('#mymbti').textContent;
   var k_description = document.querySelector('#explain').textContent;
-  var k_img = 'assets/images/mbti/ESES.jpg';
+  var k_img = document.querySelector('#run2 > img').getAttribute('src');
 
   Kakao.Link.sendDefault({
     objectType: 'feed',
@@ -164,15 +190,10 @@ function sendLink() {
   }
 
 
-// 상품 추천하기
-function curation() {
-
-}
-
 document.querySelector('#run-btn').addEventListener('click', run);
 document.querySelector('#retry').addEventListener('click', retry);
 document.querySelector('#share').addEventListener('click', sendLink);
-document.querySelector('#curation').addEventListener('click', curation);
+document.querySelector('#curation').addEventListener('click', curationBtn);
 
 
 document.querySelector('#A').addEventListener('click', function(){
