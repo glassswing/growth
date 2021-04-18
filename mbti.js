@@ -163,34 +163,6 @@ function sendLink() {
       }})
   }
 
-//       var k_title = document.querySelector('#mymbti').textContent;
-//       var k_description = document.querySelector('#explain').textContent;
-//       var k_img = document.querySelector('#img').getAttribute('src');
-//
-//   Kakao.Link.sendDefault({
-//     objectType: 'feed',
-//     content: {
-//       title: k_title,
-//       description: k_description,
-//       imageUrl:
-//         'k_img',
-//       link: {
-//         mobileWebUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
-//         webUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
-//       },
-//     },
-//     buttons: [
-//       {
-//         title: '공유하기',
-//         link: {
-//           mobileWebUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
-//           webUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
-//         },
-//       },
-//     ]
-//   });
-// }
-
 
 // 상품 추천하기
 function curation() {
