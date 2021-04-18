@@ -90,7 +90,7 @@ var testNum = {
 
 //결과
 var result = {
-  'INTJ': {'mbti': 'INTJ', 'explain': '책임감이 엄청난 만큼 스스로에게 엄격한 타입!<br>야무지고 똑부러지는 면이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>힘들 땐 다른 사람에게 좀 더 의지해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>생각보다 어렵고 생각보다 재밌는 플라워 클래스로 힐-링하기', 'img' : 'https://postfiles.pstatic.net/MjAyMTA0MThfMTg1/MDAxNjE4NzM3NzMxNjU5.ZWCHfJ2UlAitJl3tK_5OskEcmI7YX0bdig7Tg3AOudUg.7gBJH48brYp1a634y6JdoqTo0z1tJjKe95-FAMM1HTcg.JPEG.glassswing/ININ.jpg?type=w773'},
+  'INTJ': {'mbti': 'INTJ', 'explain': '책임감이 엄청난 만큼 스스로에게 엄격한 타입!<br>야무지고 똑부러지는 면이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>힘들 땐 다른 사람에게 좀 더 의지해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>생각보다 어렵고 생각보다 재밌는 플라워 클래스로 힐-링하기', 'img' : 'assets/images/posts/main/4_thumbnail.jpg'},
 
   'INTP': {'mbti': 'INTP', 'explain': '호불호가 명확한 타입!<br>야무지고 똑부러지는 면이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>힘들 땐 다른 사람에게 좀 더 의지해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>커피 한 잔에만 집중하고 힐-링하기', 'img' : 'https://postfiles.pstatic.net/MjAyMTA0MThfMTg1/MDAxNjE4NzM3NzMxNjU5.ZWCHfJ2UlAitJl3tK_5OskEcmI7YX0bdig7Tg3AOudUg.7gBJH48brYp1a634y6JdoqTo0z1tJjKe95-FAMM1HTcg.JPEG.glassswing/ININ.jpg?type=w773'},
 
