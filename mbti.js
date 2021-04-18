@@ -148,13 +148,13 @@ function sendLink() {
 
   var k_title = document.querySelector('#mymbti').textContent;
   var k_description = document.querySelector('#explain').textContent;
-  var k_img = document.querySelector('#img').src = result[mbti]['img'];
+  var k_img = 'assets/images/mbti/ESES.jpg';
 
   Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {
-      title: k_title,
-      description: k_description,
+      title: 'MBTI 유형별 스트레스 해소💥방법',
+      description: k_title + " - " + k_description,
       imageUrl: k_img,
       link: {
         mobileWebUrl: 'https://growth-study.kr/mbti?utm_source=kakao&utm_medium=social&utm_campaign=share',
