@@ -90,65 +90,58 @@ var testNum = {
 
 //결과
 var result = {
-  'INTJ': {'mbti': 'INTJ', 'explain': '책임감이 엄청난 만큼 스스로에게 엄격한 타입!<br>야무지고 똑부러지는 면이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>힘들 땐 다른 사람에게 좀 더 의지해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>생각보다 어렵고 생각보다 재밌는 플라워 클래스로 힐-링하기', 'img' : 'assets/images/mbti/ININ.jpg'},
+  'INTJ': {'mbti': 'INTJ', 'explain': '책임감이 엄청난 만큼 스스로에게 엄격한 타입!<br>야무지고 똑부러지는 면이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>힘들 땐 다른 사람에게 좀 더 의지해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>생각보다 어렵고 생각보다 재밌는 플라워 클래스로 힐-링하기', 'img' : 'assets/images/mbti/ININ.jpg', 'offer' : 'https://www.myrealtrip.com/offers/83797'},
 
-  'INTP': {'mbti': 'INTP', 'explain': '호불호가 명확한 타입!<br>야무지고 똑부러지는 면이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>힘들 땐 다른 사람에게 좀 더 의지해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>커피 한 잔에만 집중하고 힐-링하기', 'img' : 'assets/images/mbti/ININ.jpg'},
+  'INTP': {'mbti': 'INTP', 'explain': '호불호가 명확한 타입!<br>야무지고 똑부러지는 면이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>힘들 땐 다른 사람에게 좀 더 의지해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>커피 한 잔에만 집중하고 힐-링하기', 'img' : 'assets/images/mbti/ININ.jpg', 'offer' : 'https://www.myrealtrip.com/offers/84744'},
 
-  'ENTJ': {'mbti': 'ENTJ', 'explain': '일이 계획과 달라지면 엄청 스트레스 받는 타입!<br>야무지고 리더십이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>조금 천천히 가도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>이 시국에 계획적이고 안정적으로 스페인 여행하기', 'img' : 'assets/images/mbti/ENEN.jpg'},
+  'ENTJ': {'mbti': 'ENTJ', 'explain': '일이 계획과 달라지면 엄청 스트레스 받는 타입!<br>야무지고 리더십이 있어서 추상적이고 우유부단한 사람과 협업할 때나 목표가 명확하지 않은 업무를 진행해야 할 때 스트레스를 받는 편이에요😨<br>조금 천천히 가도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>이 시국에 계획적이고 안정적으로 스페인 여행하기', 'img' : 'assets/images/mbti/ENEN.jpg', 'offer' : 'https://www.myrealtrip.com/offers/100604'},
 
-  'ENTP': {'mbti': 'ENTP', 'explain': '업무에서 인정받지 못하면 엄-청 스트레스 받는 타입!<br>지적이고 에너지도 넘치고, 재능도 많은 타입이라 충분히 인정받지 못하면 속상해지고, 반면 인정받으면 호랑이 힘이 샘솟는 타입이에요😐<br>지금도 너무 잘 하고 있어요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>이 시국에 생각지도 못했던 유럽 여행하기', 'img' : 'assets/images/mbti/ENEN.jpg'},
+  'ENTP': {'mbti': 'ENTP', 'explain': '업무에서 인정받지 못하면 엄-청 스트레스 받는 타입!<br>지적이고 에너지도 넘치고, 재능도 많은 타입이라 충분히 인정받지 못하면 속상해지고, 반면 인정받으면 호랑이 힘이 샘솟는 타입이에요😐<br>지금도 너무 잘 하고 있어요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>이 시국에 생각지도 못했던 유럽 여행하기', 'img' : 'assets/images/mbti/ENEN.jpg', 'offer' : 'https://www.myrealtrip.com/offers/84531'},
 
-  'INFJ': {'mbti': 'INFJ', 'explain': '고민이 있으면 혼자 삭히는 타입!<br>센스 있고 다정한 편이라 주위에 사람이 많은 편이에요. 그러나 한 번 갈등이 고민이 생기면 표출하기까지 오래 걸려서 힘들어 해요🙁<br>힘들 땐 다른 사람에게 좀 더 표현해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>내가 좋아하는 향으로 기분 전환하기, 어때요?', 'img' : 'assets/images/mbti/ININ.jpg'},
+  'INFJ': {'mbti': 'INFJ', 'explain': '고민이 있으면 혼자 삭히는 타입!<br>센스 있고 다정한 편이라 주위에 사람이 많은 편이에요. 그러나 한 번 갈등이 고민이 생기면 표출하기까지 오래 걸려서 힘들어 해요🙁<br>힘들 땐 다른 사람에게 좀 더 표현해도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>내가 좋아하는 향으로 기분 전환하기, 어때요?', 'img' : 'assets/images/mbti/ININ.jpg', 'offer' : 'https://www.myrealtrip.com/offers/52166'},
 
-  'INFP': {'mbti': 'INFP', 'explain': '스스로에게 엄격한 타입!<br>센스 있고 다정한 편이라 주위에 사람이 많은 편이에요. 그러나 완벽주의적 성향이 있어 모두를 만족시키지 못하면 엄청 속상해지곤 해요😯<br>지금도 충분히 잘 하고 있어요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>만화카페 가서 하루종일 늘어져있기, 어때요?', 'img' : 'assets/images/mbti/ININ.jpg'},
+  'INFP': {'mbti': 'INFP', 'explain': '스스로에게 엄격한 타입!<br>센스 있고 다정한 편이라 주위에 사람이 많은 편이에요. 그러나 완벽주의적 성향이 있어 모두를 만족시키지 못하면 엄청 속상해지곤 해요😯<br>지금도 충분히 잘 하고 있어요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>만화카페 가서 하루종일 늘어져있기, 어때요?', 'img' : 'assets/images/mbti/ININ.jpg', 'offer' : 'https://www.myrealtrip.com/offers/73847'},
 
-  'ENFJ': {'mbti': 'ENFJ', 'explain': '지금 진행되는 일이 뭔가 마음에 안 드는 데 발언권이 없을 때 미치는 타입!<br>리더십도 있고 배려심도 있어서 다른 사람들과 협력해서 일을 잘 이끌어가는 한편, 부당하다고 생각되는 일을 목격하면 끼어들지 않고는 직성이 풀리지 않는 타입이에요<br>혼자서 모든 걸 해결하려 할 필요 없어요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>맛있는 것 먹고 힐-링하기', 'img' : 'assets/images/mbti/ENEN.jpg'},
+  'ENFJ': {'mbti': 'ENFJ', 'explain': '지금 진행되는 일이 뭔가 마음에 안 드는 데 발언권이 없을 때 미치는 타입!<br>리더십도 있고 배려심도 있어서 다른 사람들과 협력해서 일을 잘 이끌어가는 한편, 부당하다고 생각되는 일을 목격하면 끼어들지 않고는 직성이 풀리지 않는 타입이에요<br>혼자서 모든 걸 해결하려 할 필요 없어요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>맛있는 것 먹고 힐-링하기', 'img' : 'assets/images/mbti/ENEN.jpg', 'offer' : 'https://www.myrealtrip.com/offers/83388'},
 
-  'ENFP': {'mbti': 'ENFP', 'explain': '단조로운 일을 지속해야 할 때 스트레스를 받는 타입!<br>에너지가 많고 아이디어가 풍부한 만큼, 자신의 생각을 충분히 드러낼 수 없는 곳에서 힘이 나지 않는 편이에요😐<br>스트레스 받을 땐 멋지게 풀어버려요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>스트레스 받을 땐 치맥이죠!', 'img' : 'assets/images/mbti/ENEN.jpg'},
+  'ENFP': {'mbti': 'ENFP', 'explain': '단조로운 일을 지속해야 할 때 스트레스를 받는 타입!<br>에너지가 많고 아이디어가 풍부한 만큼, 자신의 생각을 충분히 드러낼 수 없는 곳에서 힘이 나지 않는 편이에요😐<br>스트레스 받을 땐 멋지게 풀어버려요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>스트레스 받을 땐 치맥이죠!', 'img' : 'assets/images/mbti/ENEN.jpg', 'offer' : 'https://www.myrealtrip.com/offers/83210'},
 
-  'ISTJ': {'mbti': 'ISTJ', 'explain': '이제까지 겪어본 적 없는 종류의 문제가 생기면<br>멘붕이 오는 타입!<br>책임감도 강하고 예의도 바른 편이라 내가 뭔가 기대에 부응하지 못할 것 같으면 괴로워져요. 반명 무책임하고 무례한 사람을 보면 화나는 타입😕<br>계획이 조금 틀어져도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>코시국이라는 돌발 변수 속에서 변수 없이 안전하게 즐길 수 있는 여행:랜선투어', 'img' : 'assets/images/mbti/ISIS.jpg'},
+  'ISTJ': {'mbti': 'ISTJ', 'explain': '이제까지 겪어본 적 없는 종류의 문제가 생기면<br>멘붕이 오는 타입!<br>책임감도 강하고 예의도 바른 편이라 내가 뭔가 기대에 부응하지 못할 것 같으면 괴로워져요. 반명 무책임하고 무례한 사람을 보면 화나는 타입😕<br>계획이 조금 틀어져도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>코시국이라는 돌발 변수 속에서 변수 없이 안전하게 즐길 수 있는 여행:랜선투어', 'img' : 'assets/images/mbti/ISIS.jpg', 'offer' : 'https://www.myrealtrip.com/offers/100904'},
 
-  'ISFJ': {'mbti': 'ISFJ', 'explain': '진행 중에 계획과 다른 돌발 변수가 생기면 멘붕이 오는 타입!<br>책임감도 강하고 배려심도 많아서 내가 일을 온전히 컨트롤하지 못해 타인을 번거롭게 할 것 같으면 괴로워져요. 반면 무책임하고 무례한 사람을 보면 화나는 타입😕<br>계획이 조금 틀어져도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>코시국이라는 돌발 변수 속에서 변수 없이 안전하게 즐길 수 있는 여행:랜선투어', 'img' : 'assets/images/mbti/ISIS.jpg'},
+  'ISFJ': {'mbti': 'ISFJ', 'explain': '진행 중에 계획과 다른 돌발 변수가 생기면 멘붕이 오는 타입!<br>책임감도 강하고 배려심도 많아서 내가 일을 온전히 컨트롤하지 못해 타인을 번거롭게 할 것 같으면 괴로워져요. 반면 무책임하고 무례한 사람을 보면 화나는 타입😕<br>계획이 조금 틀어져도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>코시국이라는 돌발 변수 속에서 변수 없이 안전하게 즐길 수 있는 여행:랜선투어', 'img' : 'assets/images/mbti/ISIS.jpg', 'offer' : 'https://www.myrealtrip.com/offers/99618'},
 
-  'ESTJ': {'mbti': 'ESTJ', 'explain': '일이 불명확하게 진행될 때 스트레스 받는 타입!<br>논리적이고 실행력이 있어서 우유부단한 사람이나 목표가 모호한 일을 진행해야 하는 상황을 만나면 고통스러워하는 타입이에요🤯<br>이것 또한 지나갈 거예요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>양궁장에서 스트레스 다 쏴버려요!', 'img' : 'assets/images/mbti/ESES.jpg'},
+  'ESTJ': {'mbti': 'ESTJ', 'explain': '일이 불명확하게 진행될 때 스트레스 받는 타입!<br>논리적이고 실행력이 있어서 우유부단한 사람이나 목표가 모호한 일을 진행해야 하는 상황을 만나면 고통스러워하는 타입이에요🤯<br>이것 또한 지나갈 거예요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>양궁장에서 스트레스 다 쏴버려요!', 'img' : 'assets/images/mbti/ESES.jpg', 'offer' : 'https://www.myrealtrip.com/offers/81904'},
 
-  'ESFJ': {'mbti': 'ESFJ', 'explain': '업무에서 인정받지 못하면 엄-청 스트레스 받는 타입!<br>지적이고 에너지도 넘치고, 재능도 많은 타입이라 충분히 인정받지 못하면 속상해지고, 반면 인정받으면 호랑이 힘이 샘솟는 타입이에요😐<br>지금도 너무 잘 하고 있어요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>맛있는 것 먹고 힐-링하기', 'img' : 'assets/images/mbti/ESES.jpg'},
+  'ESFJ': {'mbti': 'ESFJ', 'explain': '업무에서 인정받지 못하면 엄-청 스트레스 받는 타입!<br>지적이고 에너지도 넘치고, 재능도 많은 타입이라 충분히 인정받지 못하면 속상해지고, 반면 인정받으면 호랑이 힘이 샘솟는 타입이에요😐<br>지금도 너무 잘 하고 있어요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>맛있는 것 먹고 힐-링하기', 'img' : 'assets/images/mbti/ESES.jpg', 'offer' : 'https://www.myrealtrip.com/offers/83197'},
 
-  'ISTP': {'mbti': 'ISTP', 'explain': '생각할 시간 없이 빨리 결정해야 하는 상황이나 자율성 없이 마이크로 매니징 받는 상황이 오면 엄청 스트레스 받는 타입!<br>책임감도 강하고 예의도 바른 편이라<br>내가 뭔가 기대에 부응하지 못할 것 같으면 괴로워져요. 반면 무책임하고 무례한 사람을 보면 화나는 타입😕<br>차근차근 진행해도 괜찮을 거예요, 너무 걱정하지 말아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>덕수궁에서 캐주얼하고 이쁜 스냅 사진 찍기', 'img' : 'assets/images/mbti/ISIS.jpg'},
+  'ISTP': {'mbti': 'ISTP', 'explain': '생각할 시간 없이 빨리 결정해야 하는 상황이나 자율성 없이 마이크로 매니징 받는 상황이 오면 엄청 스트레스 받는 타입!<br>책임감도 강하고 예의도 바른 편이라<br>내가 뭔가 기대에 부응하지 못할 것 같으면 괴로워져요. 반면 무책임하고 무례한 사람을 보면 화나는 타입😕<br>차근차근 진행해도 괜찮을 거예요, 너무 걱정하지 말아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>덕수궁에서 캐주얼하고 이쁜 스냅 사진 찍기', 'img' : 'assets/images/mbti/ISIS.jpg', 'offer' : 'https://www.myrealtrip.com/offers/82433'},
 
-  'ISFP': {'mbti': 'ISFP', 'explain': '부정적인 표현을 잘 못하고 속으로 삭히는 타입!<br>다정하고 이해심이 많은 편이라 상대방과 반대되는 말이나 행동을 해야 할 때면 마음이 무거워지곤 해요. 다른 사람을 위하다가 정작 스스로의 마음을 잘 보살피지 못하는 편😥<br>조금 더 우겨도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>달달한 마카롱으로 스트레스 녹이기', 'img' : 'assets/images/mbti/ISIS.jpg'},
+  'ISFP': {'mbti': 'ISFP', 'explain': '부정적인 표현을 잘 못하고 속으로 삭히는 타입!<br>다정하고 이해심이 많은 편이라 상대방과 반대되는 말이나 행동을 해야 할 때면 마음이 무거워지곤 해요. 다른 사람을 위하다가 정작 스스로의 마음을 잘 보살피지 못하는 편😥<br>조금 더 우겨도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>달달한 마카롱으로 스트레스 녹이기', 'img' : 'assets/images/mbti/ISIS.jpg', 'offer' : 'https://www.myrealtrip.com/offers/99616'},
 
-  'ESTP': {'mbti': 'ESTP', 'explain': '당장 결과가 안 날 때 기다리는 것에 스트레스 받는 타입!<br>솔직하고 실행력이 있어서 생각을 속으로 삭히는 사람이나 결과를 당장 알기 어려운 일을 만나면 고통스러워하는 타입이에요🤯<br>이것 또한 지나갈 거예요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>사격장에서 스트레스 다 쏴버려요!', 'img' : 'assets/images/mbti/ESES.jpg'},
+  'ESTP': {'mbti': 'ESTP', 'explain': '당장 결과가 안 날 때 기다리는 것에 스트레스 받는 타입!<br>솔직하고 실행력이 있어서 생각을 속으로 삭히는 사람이나 결과를 당장 알기 어려운 일을 만나면 고통스러워하는 타입이에요🤯<br>이것 또한 지나갈 거예요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>사격장에서 스트레스 다 쏴버려요!', 'img' : 'assets/images/mbti/ESES.jpg', 'offer' : 'https://www.myrealtrip.com/offers/27309'},
 
-  'ESFP': {'mbti': 'ESFP', 'explain': '부정적인 표현을 잘 못하고 속으로 삭히는 타입!<br>다정하고 이해심이 많은 편이라 상대방과 반대되는 말이나 행동을 해야 할 때면 마음이 무거워지곤 해요. 다른 사람을 위하다가 정작 스스로의 마음을 잘 보살피지 못하는 편😥<br>조금 더 우겨도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>달달한 다쿠아즈로 스트레스 녹이기', 'img' : 'assets/images/mbti/ESES.jpg'}
+  'ESFP': {'mbti': 'ESFP', 'explain': '부정적인 표현을 잘 못하고 속으로 삭히는 타입!<br>다정하고 이해심이 많은 편이라 상대방과 반대되는 말이나 행동을 해야 할 때면 마음이 무거워지곤 해요. 다른 사람을 위하다가 정작 스스로의 마음을 잘 보살피지 못하는 편😥<br>조금 더 우겨도 괜찮아요! 제가 당신을 위한 스트레스 해소법으로 생각한 게 있는데, 들어보실래요?<br><br><b>저의 추-천</b><br>달달한 다쿠아즈로 스트레스 녹이기', 'img' : 'assets/images/mbti/ESES.jpg', 'offer' : 'https://www.myrealtrip.com/offers/84242'}
 };
 
-
-//추천
+// 상품랜딩
 var curation = {
-  'ISTJ' : 'https://www.myrealtrip.com/offers/100904',
-  'ISTP' : 'https://www.myrealtrip.com/offers/82433',
-  'ISFJ' : 'https://www.myrealtrip.com/offers/99618',
-  'ISFP' : 'https://www.myrealtrip.com/offers/99616',
   'INTJ' : 'https://www.myrealtrip.com/offers/83797',
-  'INTP' : 'https://www.myrealtrip.com/offers/84744',
-  'INFJ' : 'https://www.myrealtrip.com/offers/52166',
-  'INFP' : 'https://www.myrealtrip.com/offers/73847',
-  'ENTJ' : 'https://www.myrealtrip.com/offers/100604',
-  'ENTP' : 'https://www.myrealtrip.com/offers/84531',
   'ENFJ' : 'https://www.myrealtrip.com/offers/83388',
   'ENFP' : 'https://www.myrealtrip.com/offers/83210',
+  'ENTJ' : 'https://www.myrealtrip.com/offers/100604',
+  'ENTP' : 'https://www.myrealtrip.com/offers/84531',
+  'ESFJ' : 'https://www.myrealtrip.com/offers/83197',
   'ESFP' : 'https://www.myrealtrip.com/offers/84242',
-  'ESTP' : 'https://www.myrealtrip.com/offers/27309',
   'ESTJ' : 'https://www.myrealtrip.com/offers/81904',
-  'ESFJ' : 'https://www.myrealtrip.com/offers/83197'
+  'ESTP' : 'https://www.myrealtrip.com/offers/27309',
+  'INFJ' : 'https://www.myrealtrip.com/offers/52166',
+  'INFP' : 'https://www.myrealtrip.com/offers/73847',
+  'INTP' : 'https://www.myrealtrip.com/offers/84744',
+  'ISFJ' : 'https://www.myrealtrip.com/offers/99618',
+  'ISFP' : 'https://www.myrealtrip.com/offers/99616',
+  'ISTJ' : 'https://www.myrealtrip.com/offers/100904',
+  'ISTP' : 'https://www.myrealtrip.com/offers/82433'
 }
-
-// 추천버튼
-function curationBtn() {
-  document.querySelector('#curation').innerHTML
-}
-
 
 // 테스트 시작
 function run() {
@@ -165,7 +158,6 @@ function retry() {
   EI.value = SN.value = TF.value = JP.value = 0;
   next();
 }
-
 
 // 카카오 연결
 Kakao.init('2fd9dd75241249ae828cc367d297090b');
@@ -193,7 +185,7 @@ function sendLink() {
 document.querySelector('#run-btn').addEventListener('click', run);
 document.querySelector('#retry').addEventListener('click', retry);
 document.querySelector('#share').addEventListener('click', sendLink);
-document.querySelector('#curation').addEventListener('click', curationBtn);
+
 
 
 document.querySelector('#A').addEventListener('click', function(){
@@ -218,6 +210,10 @@ function next() {
     (document.querySelector('#TF').value < 2) ? mbti += 'F' : mbti += 'T';
     (document.querySelector('#JP').value < 2) ? mbti += 'P' : mbti += 'J';
     console.log(mbti);
+    var move_url = curation[mbti];
+        document.querySelector('#curation').addEventListener('click', function () {
+          location.href = move_url;
+        })
     document.querySelector('#img').src = result[mbti]['img'];
     document.querySelector('#mymbti').innerHTML = result[mbti]['mbti'];
     document.querySelector('#explain').innerHTML = result[mbti]['explain'];
@@ -232,4 +228,4 @@ function next() {
     document.querySelector('#B').innerHTML = testNum[i]['B'];
     i++;
   }
-}
+};
