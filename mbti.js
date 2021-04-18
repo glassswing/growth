@@ -157,8 +157,8 @@ function sendLink() {
       description: k_description,
       imageUrl: k_img,
       link: {
-        mobileWebUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
-        webUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
+        mobileWebUrl: 'https://growth-study.kr/mbti?utm_source=kakao&utm_medium=social&utm_campaign=share',
+        webUrl: 'https://growth-study.kr/mbti?utm_source=kakao&utm_medium=social&utm_campaign=share',
         },
       }})
   }
