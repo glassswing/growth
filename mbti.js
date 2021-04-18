@@ -140,6 +140,58 @@ function retry() {
   next();
 }
 
+
+// 카카오 연결
+Kakao.init('2fd9dd75241249ae828cc367d297090b');
+
+function sendLink() {
+
+  var k_title = document.querySelector('#mymbti').textContent;
+  var k_description = document.querySelector('#explain').textContent;
+  var k_img = document.querySelector('#img').getAttribute('src');
+
+  Kakao.Link.sendDefault({
+    objectType: 'feed',
+    content: {
+      title: k_title,
+      description: k_description,
+      imageUrl: k_img,
+      link: {
+        mobileWebUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
+        webUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
+        },
+      }})
+  }
+
+//       var k_title = document.querySelector('#mymbti').textContent;
+//       var k_description = document.querySelector('#explain').textContent;
+//       var k_img = document.querySelector('#img').getAttribute('src');
+//
+//   Kakao.Link.sendDefault({
+//     objectType: 'feed',
+//     content: {
+//       title: k_title,
+//       description: k_description,
+//       imageUrl:
+//         'k_img',
+//       link: {
+//         mobileWebUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
+//         webUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
+//       },
+//     },
+//     buttons: [
+//       {
+//         title: '공유하기',
+//         link: {
+//           mobileWebUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
+//           webUrl: 'https://growth-study.kr/mbti/?utm_source=kakao&utm_medium=social&utm_campaign=share',
+//         },
+//       },
+//     ]
+//   });
+// }
+
+
 // 상품 추천하기
 function curation() {
 
@@ -147,6 +199,7 @@ function curation() {
 
 document.querySelector('#run-btn').addEventListener('click', run);
 document.querySelector('#retry').addEventListener('click', retry);
+document.querySelector('#share').addEventListener('click', sendLink);
 document.querySelector('#curation').addEventListener('click', curation);
 
 
