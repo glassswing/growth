@@ -125,22 +125,22 @@ var result = {
 
 // 상품랜딩
 var curation = {
-  'INTJ' : 'https://www.myrealtrip.com/offers/83797',
-  'ENFJ' : 'https://www.myrealtrip.com/offers/83388',
-  'ENFP' : 'https://www.myrealtrip.com/offers/83210',
-  'ENTJ' : 'https://www.myrealtrip.com/offers/100604',
-  'ENTP' : 'https://www.myrealtrip.com/offers/84531',
-  'ESFJ' : 'https://www.myrealtrip.com/offers/83197',
-  'ESFP' : 'https://www.myrealtrip.com/offers/84242',
-  'ESTJ' : 'https://www.myrealtrip.com/offers/81904',
-  'ESTP' : 'https://www.myrealtrip.com/offers/27309',
-  'INFJ' : 'https://www.myrealtrip.com/offers/52166',
-  'INFP' : 'https://www.myrealtrip.com/offers/73847',
-  'INTP' : 'https://www.myrealtrip.com/offers/84744',
-  'ISFJ' : 'https://www.myrealtrip.com/offers/99618',
-  'ISFP' : 'https://www.myrealtrip.com/offers/99616',
-  'ISTJ' : 'https://www.myrealtrip.com/offers/100904',
-  'ISTP' : 'https://www.myrealtrip.com/offers/82433'
+  'INTJ' : 'https://www.myrealtrip.com/offers/83797?utm_source=sss&utm_campaign=mbti',
+  'ENFJ' : 'https://www.myrealtrip.com/offers/83388?utm_source=sss&utm_campaign=mbti',
+  'ENFP' : 'https://www.myrealtrip.com/offers/83210?utm_source=sss&utm_campaign=mbti',
+  'ENTJ' : 'https://www.myrealtrip.com/offers/100604?utm_source=sss&utm_campaign=mbti',
+  'ENTP' : 'https://www.myrealtrip.com/offers/84531?utm_source=sss&utm_campaign=mbti',
+  'ESFJ' : 'https://www.myrealtrip.com/offers/83197?utm_source=sss&utm_campaign=mbti',
+  'ESFP' : 'https://www.myrealtrip.com/offers/84242?utm_source=sss&utm_campaign=mbti',
+  'ESTJ' : 'https://www.myrealtrip.com/offers/81904?utm_source=sss&utm_campaign=mbti',
+  'ESTP' : 'https://www.myrealtrip.com/offers/27309?utm_source=sss&utm_campaign=mbti',
+  'INFJ' : 'https://www.myrealtrip.com/offers/52166?utm_source=sss&utm_campaign=mbti',
+  'INFP' : 'https://www.myrealtrip.com/offers/73847?utm_source=sss&utm_campaign=mbti',
+  'INTP' : 'https://www.myrealtrip.com/offers/84744?utm_source=sss&utm_campaign=mbti',
+  'ISFJ' : 'https://www.myrealtrip.com/offers/99618?utm_source=sss&utm_campaign=mbti',
+  'ISFP' : 'https://www.myrealtrip.com/offers/99616?utm_source=sss&utm_campaign=mbti',
+  'ISTJ' : 'https://www.myrealtrip.com/offers/100904?utm_source=sss&utm_campaign=mbti',
+  'ISTP' : 'https://www.myrealtrip.com/offers/82433?utm_source=sss&utm_campaign=mbti'
 }
 
 // 테스트 시작
