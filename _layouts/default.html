@@ -11,7 +11,7 @@
       m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script",
       "https://chimpstatic.com/mcjs-connected/js/users/a7a38dc23666648ff35ec251d/d2aacaa3961292d955076568f.js");
     </script>
-    
+
 
         <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -112,6 +112,36 @@
     src="https://www.facebook.com/tr?id=667283223992900&ev=PageView&noscript=1"
     /></noscript> -->
     <!-- End Facebook Pixel Code -->
+
+
+
+    <!-- facebook Messenger 채팅 플러그인 Code -->
+    <div id="fb-root"></div>
+
+    <!-- facebook Your 채팅 플러그인 code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "118717993293643");
+      chatbox.setAttribute("attribution", "page_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/ko_KR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
 
